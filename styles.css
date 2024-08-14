@@ -21,6 +21,11 @@ header nav {
     padding: 0 2rem;
 }
 
+.logo {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
 .logo img {
     height: 70px; /* Adjust logo height */
     width: auto;  /* Maintain aspect ratio */
@@ -36,6 +41,7 @@ header nav {
 .nav-links {
     list-style: none;
     display: flex;
+    align-items: center; /* Align nav items vertically with the logo */
 }
 
 .nav-links li {
